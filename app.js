@@ -2,7 +2,7 @@ let saludo = "Hola ";
 let adelanto = 450 + 425;
 let usuario = ["Julissa","Denis","GSR-4"];
 let tSaldo = "Saldo";
-let tareas = 9;
+let tareas = 20;
 let pagoTarea = 5;
 let saldo = pagoTarea * tareas - adelanto;
 
