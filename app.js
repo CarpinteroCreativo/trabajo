@@ -1,5 +1,5 @@
 let saludo = "Hola ";
-let adelanto = 41 + 415 + 300;
+let adelanto = 41 + 415 + 300 - 33;
 let usuario = ["Julissa","Denis","GSR-4"];
 let tSaldo = "Saldo";
 let tareas = 7;
