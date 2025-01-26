@@ -1,10 +1,10 @@
 let saludo = "Hola ";
-let adelanto = 470 + 569 - 41;
+let adelanto = 470 + 569;
 let usuario = ["Julissa","Denis","GSR-4"];
 let tSaldo = "Saldo";
-let tareas = 0;
+let tareas = 41;
 let pagoTarea = 100;
-let saldo = pagoTarea * tareas - adelanto;
+let saldo = adelanto - tareas;
 
 
 
@@ -13,7 +13,7 @@ document.write(`
 <h2>${saludo} ${usuario[0]}!</h2>
     <div class="contenedor"><div class="cliente">${tSaldo}</div>
         <div class="saldo">${saldo} HNL</div>
-        <div class="tareas"><small class="bga">Tareas - <small>${tareas}</div></div>
+        <div class="tareas"><small class="bga">Pago - <small>${tareas}</div></div>
         <footer class="piePajina"><p><a href="https://wa.me/message/ZJUJCKW7IQWIP1" class="retiro">Retirar Saldo</a></p></footer>
 `);
 
